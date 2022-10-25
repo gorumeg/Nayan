@@ -55,7 +55,7 @@ def getvoice():
          elif said=="Instagram":
             wbb.open("https://www.instagram.com")
          elif said=="github":
-            wbb.open("www.github.com")
+            wbb.open("https://www.github.com")
 
 
         
