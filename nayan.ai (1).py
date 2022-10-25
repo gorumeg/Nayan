@@ -51,7 +51,14 @@ def getvoice():
          elif said=="music":
             wbb.open("https://www.youtube.com/watch?v=QB9EB8mTKcc&list=RDQB9EB8mTKcc&start_radio=1")
          elif said=="image":
-            vid=cv2.VideoCapture(0) 
+            vid=cv2.VideoCapture(0)
+         elif said=="Instagram":
+            wbb.open("https://www.instagram.com")
+         elif said=="github":
+            wbb.open("www.github.com")
+
+
+        
             while True:
                  ret,frame=vid.read()
                  cv2.imshow("dk",frame)
